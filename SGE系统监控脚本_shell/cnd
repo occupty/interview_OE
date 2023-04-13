@@ -1,0 +1,45 @@
+#! /bin/bash
+#$ -S /bin/bash
+NODE=$1
+n=1
+for i in $(qstat -u \* -l h='awg'$NODE|awk '/^[0-9]/{print $1}')
+do
+	JOB[$n]=$i
+	n=`expr $n + 1`
+done
+for j in ${JOB[*]}
+do
+	JOB_OWNER=`qstat -j $j|grep owner`
+	OWNER=`echo ${JOB_OWNER##* }`
+	JOB_NAME=`qstat -j $j|grep job_name`
+	NAME=`echo ${JOB_NAME##* }`
+	JOB_USAGE=`qstat -j $j|grep usage`
+	USAGE=`echo ${JOB_USAGE#*: }`
+	[ "$USAGE" ] && {
+		HEAD=`echo ${USAGE%=*=*=*}`"="
+		TAIL=", "`echo ${USAGE##*,}`
+		IO=`echo ${USAGE#*=*=*=}`; IO=`echo ${IO%%.*}`
+		IO_ALL=`echo ${USAGE#*=*=*=}`; IO_ALL=`echo ${IO_ALL%%,*}`
+		VMEM=`echo ${USAGE#*=*=*=*=}`; VMEM=`echo ${VMEM%%.*}`
+		VMEM_ALL=`echo ${USAGE#*=*=*=*=}`; VMEM_ALL=`echo ${VMEM_ALL%%,*}`
+		GM=`echo ${VMEM_ALL##*[0-9]}`
+		echo -e "\033[36m$NAME \033[35m$OWNER\033[0m"
+		echo -e "\033[32m$HEAD\033[0m\c"
+		[ $IO -gt 200 ] && {
+			echo -e "\033[31m$IO_ALL\033[0m\c"
+		}||{
+			echo -e "\033[32m$IO_ALL\033[0m\c"
+		}
+		echo -e "\033[32m, vmem=\033[0m\c"
+		[ $GM == "G" ] && {
+			[ $VMEM -gt 50 ] && {
+				echo -e "\033[31m$VMEM_ALL\033[0m\c"
+			}||{
+				echo -e "\033[32m$VMEM_ALL\033[0m\c"
+			}
+		}||{
+			echo -e "\033[32m$VMEM_ALL\033[0m\c"
+		}
+		echo -e "\033[32m$TAIL\033[0m"
+	}
+done

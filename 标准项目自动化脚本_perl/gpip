@@ -1,0 +1,155 @@
+#! /usr/bin/perl
+use strict;
+use Getopt::Long;
+use warnings;
+
+my ($file,$i,$prodir,$refdir,$indexdir,$chrnamelist,@chrname,$ref,$gtf,$bed,$description,$gofile,$samplename,$groupbundle,$groupname,$comparelist,@compare,$namefile,@sample,$groupfile,@group,$cmpfile,%grphash,@venn,$vennlist);
+my $rp_num = 3;
+GetOptions(
+	"rf=s" => \$refdir,
+	"p=s" => \$prodir,
+	"rp=s" => \$rp_num
+);
+
+my $rawlinkdir = $prodir."/rawdata";
+$indexdir = $refdir."/star_index/";
+
+opendir INDEX, $indexdir;
+foreach $file (readdir INDEX){
+	if($file =~ /.*\.genome\.fa$/){
+		$ref = $indexdir.$file;
+	} elsif ($file =~ /.*\.exon\.gtf$/){
+		$gtf = $indexdir.$file;
+	} elsif ($file =~ /chrNameLength.txt/){
+		open CHRNAME, "<$indexdir/chrNameLength.txt";
+		print "展示前30条染色体\nIndex\tName\tLength\n";
+		while (<CHRNAME>){
+			print $.."\t".$_;
+			chomp;
+			my @chrtmp = split /\t/, $_;
+			push @chrname, $chrtmp[0];
+			if ($. == 30){last;}
+		}
+		print "输入要选择的个数（1-30）\n";
+		my $chrnum = <STDIN>;
+		chomp($chrnum);
+		@chrname = @chrname[0..($chrnum - 1)];
+		$chrnamelist = join(",", @chrname);
+	}
+}
+closedir INDEX;
+
+opendir REF, $refdir;
+foreach $file (readdir REF){
+	if ($file =~ /.*\.exon\.bed$/){
+		$bed = $refdir."/".$file;
+	} elsif ($file =~ /gene_description.txt/){
+		$description = $refdir."/".$file;
+	}
+}
+closedir REF;
+
+opendir GO, $refdir."/go/";
+foreach $file (readdir GO){
+	if ($file =~ /.*\.hmm_go\.txt$/){
+		$gofile = $refdir."/go/".$file;
+	}
+}
+closedir GO;
+
+opendir BIOMART, $refdir."/ensemble_bioMart";
+foreach $file (readdir BIOMART){
+	if ($file =~ /complete_gene2go.txt/){
+		$gofile = $refdir."/ensemble_bioMart/".$file;
+	} elsif ($file =~ /gene_description.txt/){
+		$description = $refdir."/ensemble_bioMart/".$file;
+	} elsif ($file =~ /mart_export_gene.txt/){
+		$description = $refdir."/ensemble_bioMart/".$file;
+	}
+}
+closedir BIOMART;
+
+$namefile = $prodir."/name";
+open SAMPLE, "<$namefile";
+while (<SAMPLE>){
+	chomp;
+	push @sample, $_;
+}
+$samplename = join(",", @sample);
+close SAMPLE;
+$groupbundle = $sample[0];
+for ($i = 1; $i <= $#sample; $i += 1){
+	if ($i%$rp_num == 0){
+		$groupbundle = $groupbundle.",".$sample[$i];
+	} else {
+		$groupbundle = $groupbundle.":".$sample[$i];
+	}
+}
+
+$groupfile = $prodir."/grp";
+open GROUP, "<$groupfile";
+while (<GROUP>){
+	chomp;
+	if ($_ =~ /^$/){next;}
+	push @group, $_;
+}
+$groupname = join(",", @group);
+close GROUP;
+
+for ($i = 0; $i <= $#group; $i += 1){
+	$grphash{$group[$i]} = $i + 1;
+}
+
+$cmpfile = $prodir."/cmp";
+open CMP, "<$cmpfile";
+while (<CMP>){
+	chomp;
+	my @cmptmp = split /\t/, $_;
+	push @compare, $grphash{$cmptmp[0]}.":".$grphash{$cmptmp[1]};
+}
+$comparelist = join(",", @compare);
+close CMP;
+
+my $vennfile = $prodir."/venn";
+open VENN, "<$vennfile";
+my @venncmp;
+while (<VENN>){
+	chomp;
+	$_ =~ /(.*)\t*$/;
+	@venncmp = split /\t/, $1;
+	for ($i = 0; $i <= $#venncmp; $i += 1){
+		$venncmp[$i] =~ /([0-9]+)/;
+		$venncmp[$i] = $compare[($1 - 1)];
+	}
+	$venn[($. - 1)]	= join("_", @venncmp);
+}
+$vennlist = join(",", @venn);
+close VENN;
+
+my $module = <<MODLE;
+perl /allwegene3/pipeline/Eukaryotic_refTR/refTR_pipeline_sjm_1.pl \\
+    -pro $prodir \\
+    -fq_dir $rawlinkdir \\
+    -index $indexdir \\
+    -chr $chrnamelist \\
+    -r $ref \\
+    -g $gtf \\
+    -b $bed \\
+    -gd $description \\
+    -go $gofile \\
+    -ad /allwegene3/soft/public/Trimmomatic/Trimmomatic-0.36/adapters/customed_adapter.fa \\
+    -sn $samplename \\
+    -gr $groupbundle \\
+    -gn $groupname \\
+    -c $comparelist \\
+    -venn $vennlist \\
+    -tax e \\
+    -sp  \\
+    -sp_ppi "" \\
+    -species  
+MODLE
+
+print $module;
+open SJM, ">$prodir/sjm_runpipeline.sh";
+print SJM $module;
+close SJM;

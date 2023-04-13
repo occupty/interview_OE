@@ -1,0 +1,157 @@
+KEGG_Pathway	Compare	Pvalue	GeneNumber
+Carbon fixation in photosynthetic organisms	MLTvsMLC	7.59724038181e-08	63
+Carbon fixation in photosynthetic organisms	MRTvsMRC	0.153228210607	33
+Carbon fixation in photosynthetic organisms	QLTvsQLC	0.258071388409	36
+Carbon fixation in photosynthetic organisms	QRTvsQRC	0.148958371326	38
+Phagosome	MLTvsMLC	1.99691645962e-06	73
+Phagosome	MRTvsMRC	0.00735356835979	57
+Phagosome	QLTvsQLC	0.0140435619144	64
+Phagosome	QRTvsQRC	0.435513526707	45
+Carbon metabolism	MLTvsMLC	4.15648609471e-06	155
+Carbon metabolism	MRTvsMRC	0.483296979621	106
+Carbon metabolism	QLTvsQLC	0.921819130742	107
+Carbon metabolism	QRTvsQRC	0.0757356799755	142
+Starch and sucrose metabolism	MLTvsMLC	4.1937354766e-05	95
+Starch and sucrose metabolism	MRTvsMRC	0.00150821806112	90
+Starch and sucrose metabolism	QLTvsQLC	0.0203096571013	94
+Starch and sucrose metabolism	QRTvsQRC	0.000320734082292	108
+Endocytosis	MLTvsMLC	0.000189916402925	89
+Endocytosis	MRTvsMRC	0.581300767337	57
+Endocytosis	QLTvsQLC	0.575461941672	68
+Endocytosis	QRTvsQRC	0.901377688312	56
+Photosynthesis	MLTvsMLC	0.000398350511779	57
+Photosynthesis	MRTvsMRC	0.982447711861	21
+Photosynthesis	QLTvsQLC	0.0233660142604	57
+Photosynthesis	QRTvsQRC	0.99999885552	11
+Amino sugar and nucleotide sugar metabolism	MLTvsMLC	0.00124849340537	83
+Amino sugar and nucleotide sugar metabolism	MRTvsMRC	0.0124062804374	80
+Amino sugar and nucleotide sugar metabolism	QLTvsQLC	0.0396301344281	88
+Amino sugar and nucleotide sugar metabolism	QRTvsQRC	0.651049567951	64
+Glyoxylate and dicarboxylate metabolism	MLTvsMLC	0.00173312422971	50
+Glyoxylate and dicarboxylate metabolism	MRTvsMRC	0.458297084757	32
+Glyoxylate and dicarboxylate metabolism	QLTvsQLC	0.766698483301	32
+Glyoxylate and dicarboxylate metabolism	QRTvsQRC	0.1256519998	45
+Fructose and mannose metabolism	MLTvsMLC	0.00276235986922	40
+Fructose and mannose metabolism	MRTvsMRC	0.129405452378	31
+Fructose and mannose metabolism	QLTvsQLC	0.0056841218276	47
+Fructose and mannose metabolism	QRTvsQRC	0.268145603833	32
+Pyruvate metabolism	MLTvsMLC	0.00286471253367	54
+Pyruvate metabolism	MRTvsMRC	0.426782581128	37
+Pyruvate metabolism	QLTvsQLC	0.984312361019	27
+Pyruvate metabolism	QRTvsQRC	0.117458488345	51
+Protein processing in endoplasmic reticulum	MLTvsMLC	0.00453910104394	110
+Protein processing in endoplasmic reticulum	MRTvsMRC	0.999995829143	44
+Protein processing in endoplasmic reticulum	QLTvsQLC	0.883700421822	89
+Protein processing in endoplasmic reticulum	QRTvsQRC	0.999998776627	51
+Citrate cycle (TCA cycle)	MLTvsMLC	0.00994508695852	34
+Citrate cycle (TCA cycle)	MRTvsMRC	0.819804080961	17
+Citrate cycle (TCA cycle)	QLTvsQLC	0.793853472239	21
+Citrate cycle (TCA cycle)	QRTvsQRC	0.644504782525	23
+Glycolysis / Gluconeogenesis	MLTvsMLC	0.0100670005543	68
+Glycolysis / Gluconeogenesis	MRTvsMRC	0.330007839061	55
+Glycolysis / Gluconeogenesis	QLTvsQLC	0.886652516303	50
+Glycolysis / Gluconeogenesis	QRTvsQRC	0.114945780148	71
+Metabolic pathways	MLTvsMLC	0.0117921457956	961
+Metabolic pathways	MRTvsMRC	0.0633910181288	1004
+Metabolic pathways	QLTvsQLC	0.481624907555	1136
+Metabolic pathways	QRTvsQRC	0.213015019628	1136
+Steroid biosynthesis	MLTvsMLC	0.0163119069447	25
+Steroid biosynthesis	MRTvsMRC	0.044310160171	24
+Steroid biosynthesis	QLTvsQLC	0.0296809684529	29
+Steroid biosynthesis	QRTvsQRC	0.33342745868	20
+Fatty acid biosynthesis	MLTvsMLC	0.0194911246613	28
+Fatty acid biosynthesis	MRTvsMRC	0.289459662403	21
+Fatty acid biosynthesis	QLTvsQLC	0.0314694262892	33
+Fatty acid biosynthesis	QRTvsQRC	0.00158037650244	40
+Pentose phosphate pathway	MLTvsMLC	0.022701922727	30
+Pentose phosphate pathway	MRTvsMRC	0.58726343337	19
+Pentose phosphate pathway	QLTvsQLC	0.0986827719539	32
+Pentose phosphate pathway	QRTvsQRC	0.0171496140138	37
+Biosynthesis of amino acids	MLTvsMLC	0.0492519949833	103
+Biosynthesis of amino acids	MRTvsMRC	0.385652202936	94
+Biosynthesis of amino acids	QLTvsQLC	0.134644350813	122
+Biosynthesis of amino acids	QRTvsQRC	0.901145038842	90
+Proteasome	MLTvsMLC	0.742728084209	16
+Proteasome	MRTvsMRC	0.000122056401139	44
+Proteasome	QLTvsQLC	0.778748096086	20
+Proteasome	QRTvsQRC	0.994521317762	11
+Carotenoid biosynthesis	MLTvsMLC	0.590513030077	13
+Carotenoid biosynthesis	MRTvsMRC	0.00403384020031	29
+Carotenoid biosynthesis	QLTvsQLC	0.957227519243	10
+Carotenoid biosynthesis	QRTvsQRC	0.0128092708513	30
+Homologous recombination	MLTvsMLC	0.991606735109	10
+Homologous recombination	MRTvsMRC	0.0214287370675	35
+Homologous recombination	QLTvsQLC	0.0191886528416	41
+Homologous recombination	QRTvsQRC	0.0505434519348	37
+ABC transporters	MLTvsMLC	0.150509275711	17
+ABC transporters	MRTvsMRC	0.0234186050325	23
+ABC transporters	QLTvsQLC	0.0424606610227	25
+ABC transporters	QRTvsQRC	-	-
+Ascorbate and aldarate metabolism	MLTvsMLC	0.0824748491601	25
+Ascorbate and aldarate metabolism	MRTvsMRC	0.0255337867961	30
+Ascorbate and aldarate metabolism	QLTvsQLC	0.0824404947114	31
+Ascorbate and aldarate metabolism	QRTvsQRC	0.0681251887926	31
+AGE-RAGE signaling pathway in diabetic complications	MLTvsMLC	0.922153447059	3
+AGE-RAGE signaling pathway in diabetic complications	MRTvsMRC	0.0261878917315	14
+AGE-RAGE signaling pathway in diabetic complications	QLTvsQLC	0.0689516002673	14
+AGE-RAGE signaling pathway in diabetic complications	QRTvsQRC	0.0231757392622	16
+Glycosaminoglycan degradation	MLTvsMLC	0.385640929435	7
+Glycosaminoglycan degradation	MRTvsMRC	0.0331081751961	13
+Glycosaminoglycan degradation	QLTvsQLC	0.261477026593	10
+Glycosaminoglycan degradation	QRTvsQRC	-	-
+Pyrimidine metabolism	MLTvsMLC	0.72287278564	18
+Pyrimidine metabolism	MRTvsMRC	0.0422409922874	33
+Pyrimidine metabolism	QLTvsQLC	0.000117840409485	54
+Pyrimidine metabolism	QRTvsQRC	0.027734822699	39
+Porphyrin and chlorophyll metabolism	MLTvsMLC	0.0687133538454	26
+Porphyrin and chlorophyll metabolism	MRTvsMRC	0.0436754273369	29
+Porphyrin and chlorophyll metabolism	QLTvsQLC	-	-
+Porphyrin and chlorophyll metabolism	QRTvsQRC	0.0228435343309	35
+Ribosome	MLTvsMLC	1.0	28
+Ribosome	MRTvsMRC	0.739391129591	128
+Ribosome	QLTvsQLC	3.49028497693e-06	237
+Ribosome	QRTvsQRC	1.0	55
+Base excision repair	MLTvsMLC	0.628682984818	14
+Base excision repair	MRTvsMRC	0.187380153113	21
+Base excision repair	QLTvsQLC	0.00107802302215	39
+Base excision repair	QRTvsQRC	0.000469543398577	40
+DNA replication	MLTvsMLC	0.670491540901	17
+DNA replication	MRTvsMRC	0.0948635384399	28
+DNA replication	QLTvsQLC	0.00463242979474	42
+DNA replication	QRTvsQRC	0.122885736353	31
+RNA degradation	MLTvsMLC	0.998683677521	20
+RNA degradation	MRTvsMRC	0.989964960374	26
+RNA degradation	QLTvsQLC	0.00877886243076	72
+RNA degradation	QRTvsQRC	0.443258060965	50
+Fatty acid metabolism	MLTvsMLC	0.101306550916	33
+Fatty acid metabolism	MRTvsMRC	0.310432969153	30
+Fatty acid metabolism	QLTvsQLC	0.0290741028896	46
+Fatty acid metabolism	QRTvsQRC	0.00429559836715	51
+Mismatch repair	MLTvsMLC	0.978266709598	8
+Mismatch repair	MRTvsMRC	0.236046188973	21
+Mismatch repair	QLTvsQLC	0.0295804536773	32
+Mismatch repair	QRTvsQRC	0.149452600891	26
+Fatty acid elongation	MLTvsMLC	0.203679002907	19
+Fatty acid elongation	MRTvsMRC	0.759354564071	13
+Fatty acid elongation	QLTvsQLC	0.0447160331631	29
+Fatty acid elongation	QRTvsQRC	0.476908143131	19
+Diterpenoid biosynthesis	MLTvsMLC	0.838370101351	6
+Diterpenoid biosynthesis	MRTvsMRC	0.278470495918	12
+Diterpenoid biosynthesis	QLTvsQLC	0.654284808946	10
+Diterpenoid biosynthesis	QRTvsQRC	0.0116778939446	22
+Glycerolipid metabolism	MLTvsMLC	0.725977615496	28
+Glycerolipid metabolism	MRTvsMRC	0.338692034892	37
+Glycerolipid metabolism	QLTvsQLC	0.679058046782	37
+Glycerolipid metabolism	QRTvsQRC	0.0220681226269	56
+Biotin metabolism	MLTvsMLC	0.408577574148	8
+Biotin metabolism	MRTvsMRC	0.597661132911	7
+Biotin metabolism	QLTvsQLC	0.231633358628	12
+Biotin metabolism	QRTvsQRC	0.0270048596983	17
+Autophagy - other	MLTvsMLC	0.838158877801	10
+Autophagy - other	MRTvsMRC	0.496169352401	15
+Autophagy - other	QLTvsQLC	0.890860293705	12
+Autophagy - other	QRTvsQRC	0.0277589447278	28
+Glycosylphosphatidylinositol (GPI)-anchor biosynthesis	MLTvsMLC	0.92626551129	5
+Glycosylphosphatidylinositol (GPI)-anchor biosynthesis	MRTvsMRC	0.823170530877	7
+Glycosylphosphatidylinositol (GPI)-anchor biosynthesis	QLTvsQLC	0.503109778523	12
+Glycosylphosphatidylinositol (GPI)-anchor biosynthesis	QRTvsQRC	0.0379356475539	20

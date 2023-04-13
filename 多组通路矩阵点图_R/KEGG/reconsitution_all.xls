@@ -1,0 +1,29 @@
+KEGG_Pathway	Compare	Pvalue	GeneNumber
+Spliceosome	MLTvsMLC	0.000373640781273	151
+Spliceosome	MRTvsMRC	-	-
+Spliceosome	QLTvsQLC	-	-
+Spliceosome	QRTvsQRC	-	-
+Starch and sucrose metabolism	MLTvsMLC	0.00775283630123	126
+Starch and sucrose metabolism	MRTvsMRC	0.174493712769	136
+Starch and sucrose metabolism	QLTvsQLC	-	-
+Starch and sucrose metabolism	QRTvsQRC	-	-
+Phagosome	MLTvsMLC	0.008324817847	84
+Phagosome	MRTvsMRC	-	-
+Phagosome	QLTvsQLC	-	-
+Phagosome	QRTvsQRC	-	-
+Carbon metabolism	MLTvsMLC	0.00867235966677	205
+Carbon metabolism	MRTvsMRC	0.194182785342	230
+Carbon metabolism	QLTvsQLC	-	-
+Carbon metabolism	QRTvsQRC	-	-
+mRNA surveillance pathway	MLTvsMLC	0.0094631299151	96
+mRNA surveillance pathway	MRTvsMRC	-	-
+mRNA surveillance pathway	QLTvsQLC	-	-
+mRNA surveillance pathway	QRTvsQRC	-	-
+Cysteine and methionine metabolism	MLTvsMLC	0.0178428113578	93
+Cysteine and methionine metabolism	MRTvsMRC	0.13566282123	104
+Cysteine and methionine metabolism	QLTvsQLC	-	-
+Cysteine and methionine metabolism	QRTvsQRC	-	-
+Protein processing in endoplasmic reticulum	MLTvsMLC	0.0403661280791	162
+Protein processing in endoplasmic reticulum	MRTvsMRC	-	-
+Protein processing in endoplasmic reticulum	QLTvsQLC	-	-
+Protein processing in endoplasmic reticulum	QRTvsQRC	-	-

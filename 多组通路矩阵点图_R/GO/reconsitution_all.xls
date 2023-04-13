@@ -1,0 +1,313 @@
+GO_Term	Term_Type	Compare	Pvalue	GeneNumber
+nucleoside-triphosphatase activity	molecular_function	MLTvsMLC	1.955e-05	571
+nucleoside-triphosphatase activity	molecular_function	MRTvsMRC	7.0979e-07	773
+nucleoside-triphosphatase activity	molecular_function	QLTvsQLC	4.3141e-06	934
+nucleoside-triphosphatase activity	molecular_function	QRTvsQRC	1.172e-08	950
+ion binding	molecular_function	MLTvsMLC	2.6834e-05	3147
+ion binding	molecular_function	MRTvsMRC	5.5433e-13	4417
+ion binding	molecular_function	QLTvsQLC	3.5444e-10	5401
+ion binding	molecular_function	QRTvsQRC	6.6973e-12	5425
+pyrophosphatase activity	molecular_function	MLTvsMLC	4.2546e-05	589
+pyrophosphatase activity	molecular_function	MRTvsMRC	1.0212e-06	802
+pyrophosphatase activity	molecular_function	QLTvsQLC	8.1298e-06	969
+pyrophosphatase activity	molecular_function	QRTvsQRC	9.84e-08	980
+purine ribonucleoside triphosphate binding	molecular_function	MLTvsMLC	6.3537e-05	1542
+purine ribonucleoside triphosphate binding	molecular_function	MRTvsMRC	2.9757e-15	2203
+purine ribonucleoside triphosphate binding	molecular_function	QLTvsQLC	6.5249e-15	2662
+purine ribonucleoside triphosphate binding	molecular_function	QRTvsQRC	1.7304e-18	2691
+hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides	molecular_function	MLTvsMLC	4.6308e-05	592
+hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides	molecular_function	MRTvsMRC	1.8431e-06	805
+hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides	molecular_function	QLTvsQLC	1.7824e-05	972
+hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides	molecular_function	QRTvsQRC	1.6576e-07	984
+hydrolase activity, acting on acid anhydrides	molecular_function	MLTvsMLC	7.551e-05	592
+hydrolase activity, acting on acid anhydrides	molecular_function	MRTvsMRC	3.7154e-06	806
+hydrolase activity, acting on acid anhydrides	molecular_function	QLTvsQLC	1.6534e-05	976
+hydrolase activity, acting on acid anhydrides	molecular_function	QRTvsQRC	1.5572e-07	988
+protein serine/threonine kinase activity	molecular_function	MLTvsMLC	1.8364e-07	337
+protein serine/threonine kinase activity	molecular_function	MRTvsMRC	1.7035e-12	467
+protein serine/threonine kinase activity	molecular_function	QLTvsQLC	0.00028629	508
+protein serine/threonine kinase activity	molecular_function	QRTvsQRC	8.6064e-07	522
+ATP-dependent microtubule motor activity	molecular_function	MLTvsMLC	0.00026437	56
+ATP-dependent microtubule motor activity	molecular_function	MRTvsMRC	9.8453e-07	76
+ATP-dependent microtubule motor activity	molecular_function	QLTvsQLC	9.3001e-09	89
+ATP-dependent microtubule motor activity	molecular_function	QRTvsQRC	0.00045559	80
+anion binding	molecular_function	MLTvsMLC	0.0009916	1795
+anion binding	molecular_function	MRTvsMRC	4.8444e-10	2535
+anion binding	molecular_function	QLTvsQLC	4.0695e-14	3135
+anion binding	molecular_function	QRTvsQRC	3.5084e-15	3146
+structural constituent of cytoskeleton	molecular_function	MLTvsMLC	1.0534e-06	27
+structural constituent of cytoskeleton	molecular_function	MRTvsMRC	7.5687e-05	29
+structural constituent of cytoskeleton	molecular_function	QLTvsQLC	2.6304e-05	33
+structural constituent of cytoskeleton	molecular_function	QRTvsQRC	0.00090611	31
+carbohydrate derivative binding	molecular_function	MLTvsMLC	0.0011761	1614
+carbohydrate derivative binding	molecular_function	MRTvsMRC	1.6307e-13	2319
+carbohydrate derivative binding	molecular_function	QLTvsQLC	2.0024e-14	2820
+carbohydrate derivative binding	molecular_function	QRTvsQRC	4.2278e-18	2851
+ribonucleotide binding	molecular_function	MLTvsMLC	0.001186	1601
+ribonucleotide binding	molecular_function	MRTvsMRC	2.4525e-13	2299
+ribonucleotide binding	molecular_function	QLTvsQLC	5.5407e-14	2793
+ribonucleotide binding	molecular_function	QRTvsQRC	2.4233e-17	2822
+purine ribonucleotide binding	molecular_function	MLTvsMLC	0.0012024	1585
+purine ribonucleotide binding	molecular_function	MRTvsMRC	4.4988e-13	2274
+purine ribonucleotide binding	molecular_function	QLTvsQLC	5.4737e-14	2765
+purine ribonucleotide binding	molecular_function	QRTvsQRC	1.2557e-17	2796
+purine nucleotide binding	molecular_function	MLTvsMLC	0.0014626	1587
+purine nucleotide binding	molecular_function	MRTvsMRC	7.6412e-13	2277
+purine nucleotide binding	molecular_function	QLTvsQLC	1.7793e-13	2767
+purine nucleotide binding	molecular_function	QRTvsQRC	1.494e-17	2802
+sulfur compound metabolic process	biological_process	MLTvsMLC	0.00010892	125
+sulfur compound metabolic process	biological_process	MRTvsMRC	0.0014302	157
+sulfur compound metabolic process	biological_process	QLTvsQLC	1.4347e-08	209
+sulfur compound metabolic process	biological_process	QRTvsQRC	4.6687e-07	204
+polymeric cytoskeletal fiber	cellular_component	MLTvsMLC	2.1243e-09	104
+polymeric cytoskeletal fiber	cellular_component	MRTvsMRC	5.8021e-11	132
+polymeric cytoskeletal fiber	cellular_component	QLTvsQLC	9.7858e-08	144
+polymeric cytoskeletal fiber	cellular_component	QRTvsQRC	0.0016076	131
+small molecule binding	molecular_function	MLTvsMLC	0.0017042	1822
+small molecule binding	molecular_function	MRTvsMRC	7.5898e-11	2589
+small molecule binding	molecular_function	QLTvsQLC	5.1875e-14	3188
+small molecule binding	molecular_function	QRTvsQRC	2.9353e-17	3218
+ATP binding	molecular_function	MLTvsMLC	0.0017871	1365
+ATP binding	molecular_function	MRTvsMRC	7.1877e-10	1937
+ATP binding	molecular_function	QLTvsQLC	1.287e-11	2365
+ATP binding	molecular_function	QRTvsQRC	2.2476e-13	2382
+catalytic activity	molecular_function	MLTvsMLC	0.0017804	4925
+catalytic activity	molecular_function	MRTvsMRC	1.4358e-06	6867
+catalytic activity	molecular_function	QLTvsQLC	1.8918e-05	8535
+catalytic activity	molecular_function	QRTvsQRC	5.8134e-11	8619
+microtubule	cellular_component	MLTvsMLC	1.3864e-09	104
+microtubule	cellular_component	MRTvsMRC	3.0182e-11	132
+microtubule	cellular_component	QLTvsQLC	1.2789e-07	143
+microtubule	cellular_component	QRTvsQRC	0.0019098	130
+nucleotide binding	molecular_function	MLTvsMLC	0.0021683	1736
+nucleotide binding	molecular_function	MRTvsMRC	4.7832e-11	2473
+nucleotide binding	molecular_function	QLTvsQLC	1.4232e-13	3034
+nucleotide binding	molecular_function	QRTvsQRC	1.8714e-16	3061
+nucleoside phosphate binding	molecular_function	MLTvsMLC	0.0021683	1736
+nucleoside phosphate binding	molecular_function	MRTvsMRC	4.7832e-11	2473
+nucleoside phosphate binding	molecular_function	QLTvsQLC	1.4232e-13	3034
+nucleoside phosphate binding	molecular_function	QRTvsQRC	1.8714e-16	3061
+microtubule-based process	biological_process	MLTvsMLC	1.5521e-06	125
+microtubule-based process	biological_process	MRTvsMRC	1.1449e-08	167
+microtubule-based process	biological_process	QLTvsQLC	6.4935e-07	189
+microtubule-based process	biological_process	QRTvsQRC	0.0022697	176
+supramolecular fiber	cellular_component	MLTvsMLC	3.3685e-09	104
+supramolecular fiber	cellular_component	MRTvsMRC	4.0203e-11	133
+supramolecular fiber	cellular_component	QLTvsQLC	1.9886e-07	144
+supramolecular fiber	cellular_component	QRTvsQRC	0.0023381	131
+supramolecular polymer	cellular_component	MLTvsMLC	3.3685e-09	104
+supramolecular polymer	cellular_component	MRTvsMRC	4.0203e-11	133
+supramolecular polymer	cellular_component	QLTvsQLC	1.9886e-07	144
+supramolecular polymer	cellular_component	QRTvsQRC	0.0023381	131
+cytoskeleton	cellular_component	MLTvsMLC	0.00037157	154
+cytoskeleton	cellular_component	MRTvsMRC	1.2879e-07	217
+cytoskeleton	cellular_component	QLTvsQLC	0.00049071	243
+cytoskeleton	cellular_component	QRTvsQRC	0.0032595	238
+cellular modified amino acid metabolic process	biological_process	MLTvsMLC	0.0029675	59
+cellular modified amino acid metabolic process	biological_process	MRTvsMRC	0.0012592	78
+cellular modified amino acid metabolic process	biological_process	QLTvsQLC	4.1447e-05	98
+cellular modified amino acid metabolic process	biological_process	QRTvsQRC	2.3424e-06	101
+cellular response to organic substance	biological_process	MLTvsMLC	0.0014351	137
+cellular response to organic substance	biological_process	MRTvsMRC	3.6353e-06	194
+cellular response to organic substance	biological_process	QLTvsQLC	0.0047608	219
+cellular response to organic substance	biological_process	QRTvsQRC	0.00024418	226
+microtubule motor activity	molecular_function	MLTvsMLC	0.0028659	58
+microtubule motor activity	molecular_function	MRTvsMRC	4.2218e-05	80
+microtubule motor activity	molecular_function	QLTvsQLC	5.1453e-06	94
+microtubule motor activity	molecular_function	QRTvsQRC	0.004402	86
+cellular polysaccharide metabolic process	biological_process	MLTvsMLC	0.0055481	97
+cellular polysaccharide metabolic process	biological_process	MRTvsMRC	0.00075742	132
+cellular polysaccharide metabolic process	biological_process	QLTvsQLC	0.0020144	156
+cellular polysaccharide metabolic process	biological_process	QRTvsQRC	0.00043545	159
+glucan metabolic process	biological_process	MLTvsMLC	0.00099462	91
+glucan metabolic process	biological_process	MRTvsMRC	0.0025054	116
+glucan metabolic process	biological_process	QLTvsQLC	0.0038121	138
+glucan metabolic process	biological_process	QRTvsQRC	0.0023565	139
+cellular glucan metabolic process	biological_process	MLTvsMLC	0.00099462	91
+cellular glucan metabolic process	biological_process	MRTvsMRC	0.0025054	116
+cellular glucan metabolic process	biological_process	QLTvsQLC	0.0038121	138
+cellular glucan metabolic process	biological_process	QRTvsQRC	0.0023565	139
+GTPase activity	molecular_function	MLTvsMLC	0.00397	137
+GTPase activity	molecular_function	MRTvsMRC	1.0905e-08	207
+GTPase activity	molecular_function	QLTvsQLC	0.0062838	222
+GTPase activity	molecular_function	QRTvsQRC	1.7006e-07	242
+supramolecular complex	cellular_component	MLTvsMLC	1.4159e-07	115
+supramolecular complex	cellular_component	MRTvsMRC	2.1239e-08	148
+supramolecular complex	cellular_component	QLTvsQLC	1.6016e-05	164
+supramolecular complex	cellular_component	QRTvsQRC	0.010639	152
+ATPase activity	molecular_function	MLTvsMLC	0.00027081	420
+ATPase activity	molecular_function	MRTvsMRC	0.0099529	543
+ATPase activity	molecular_function	QLTvsQLC	0.00012786	681
+ATPase activity	molecular_function	QRTvsQRC	0.00062924	675
+cellular response to hormone stimulus	biological_process	MLTvsMLC	0.00058284	134
+cellular response to hormone stimulus	biological_process	MRTvsMRC	2.0487e-07	191
+cellular response to hormone stimulus	biological_process	QLTvsQLC	0.010418	208
+cellular response to hormone stimulus	biological_process	QRTvsQRC	0.00016313	218
+microtubule-based movement	biological_process	MLTvsMLC	0.0043793	59
+microtubule-based movement	biological_process	MRTvsMRC	6.0632e-05	82
+microtubule-based movement	biological_process	QLTvsQLC	1.4116e-05	96
+microtubule-based movement	biological_process	QRTvsQRC	0.0071854	88
+cellular response to endogenous stimulus	biological_process	MLTvsMLC	0.00081638	134
+cellular response to endogenous stimulus	biological_process	MRTvsMRC	2.2337e-07	192
+cellular response to endogenous stimulus	biological_process	QLTvsQLC	0.011616	209
+cellular response to endogenous stimulus	biological_process	QRTvsQRC	0.00019437	219
+isoprenoid biosynthetic process	biological_process	MLTvsMLC	0.00025266	48
+isoprenoid biosynthetic process	biological_process	MRTvsMRC	8.5548e-06	64
+isoprenoid biosynthetic process	biological_process	QLTvsQLC	3.7813e-05	72
+isoprenoid biosynthetic process	biological_process	QRTvsQRC	0.013698	65
+small molecule metabolic process	biological_process	MLTvsMLC	0.00013261	605
+small molecule metabolic process	biological_process	MRTvsMRC	0.014946	789
+small molecule metabolic process	biological_process	QLTvsQLC	3.5816e-08	1030
+small molecule metabolic process	biological_process	QRTvsQRC	8.1211e-05	1006
+hormone-mediated signaling pathway	biological_process	MLTvsMLC	0.001537	129
+hormone-mediated signaling pathway	biological_process	MRTvsMRC	2.6223e-07	187
+hormone-mediated signaling pathway	biological_process	QLTvsQLC	0.013883	203
+hormone-mediated signaling pathway	biological_process	QRTvsQRC	0.00014777	214
+isoprenoid metabolic process	biological_process	MLTvsMLC	0.0009481	49
+isoprenoid metabolic process	biological_process	MRTvsMRC	1.8554e-05	67
+isoprenoid metabolic process	biological_process	QLTvsQLC	2.1383e-05	77
+isoprenoid metabolic process	biological_process	QRTvsQRC	0.015375	69
+carbohydrate metabolic process	biological_process	MLTvsMLC	1.4337e-06	525
+carbohydrate metabolic process	biological_process	MRTvsMRC	0.00068466	677
+carbohydrate metabolic process	biological_process	QLTvsQLC	0.015548	811
+carbohydrate metabolic process	biological_process	QRTvsQRC	0.00050232	830
+negative regulation of hydrolase activity	biological_process	MLTvsMLC	0.0010174	41
+negative regulation of hydrolase activity	biological_process	MRTvsMRC	0.0062519	50
+negative regulation of hydrolase activity	biological_process	QLTvsQLC	0.0096825	62
+negative regulation of hydrolase activity	biological_process	QRTvsQRC	0.00041341	66
+adenyl ribonucleotide binding	molecular_function	MLTvsMLC	0.018193	1408
+adenyl ribonucleotide binding	molecular_function	MRTvsMRC	3.1663e-08	2008
+adenyl ribonucleotide binding	molecular_function	QLTvsQLC	8.0708e-11	2468
+adenyl ribonucleotide binding	molecular_function	QRTvsQRC	1.0928e-12	2487
+oxoacid metabolic process	biological_process	MLTvsMLC	0.0040414	342
+oxoacid metabolic process	biological_process	MRTvsMRC	0.013837	455
+oxoacid metabolic process	biological_process	QLTvsQLC	5.2466e-07	591
+oxoacid metabolic process	biological_process	QRTvsQRC	0.0003328	575
+cellular response to chemical stimulus	biological_process	MLTvsMLC	0.0055323	213
+cellular response to chemical stimulus	biological_process	MRTvsMRC	5.264e-05	302
+cellular response to chemical stimulus	biological_process	QLTvsQLC	0.012169	353
+cellular response to chemical stimulus	biological_process	QRTvsQRC	0.00084702	362
+small molecule biosynthetic process	biological_process	MLTvsMLC	0.010467	231
+small molecule biosynthetic process	biological_process	MRTvsMRC	0.0071732	313
+small molecule biosynthetic process	biological_process	QLTvsQLC	0.00016413	397
+small molecule biosynthetic process	biological_process	QRTvsQRC	0.0011879	391
+carboxylic acid metabolic process	biological_process	MLTvsMLC	0.0048948	337
+carboxylic acid metabolic process	biological_process	MRTvsMRC	0.014876	449
+carboxylic acid metabolic process	biological_process	QLTvsQLC	1.6614e-06	582
+carboxylic acid metabolic process	biological_process	QRTvsQRC	0.00042173	567
+adenyl nucleotide binding	molecular_function	MLTvsMLC	0.020383	1410
+adenyl nucleotide binding	molecular_function	MRTvsMRC	4.2619e-08	2011
+adenyl nucleotide binding	molecular_function	QLTvsQLC	1.9616e-10	2470
+adenyl nucleotide binding	molecular_function	QRTvsQRC	1.3655e-12	2492
+organic acid metabolic process	biological_process	MLTvsMLC	0.0046816	342
+organic acid metabolic process	biological_process	MRTvsMRC	0.016402	455
+organic acid metabolic process	biological_process	QLTvsQLC	4.0497e-07	593
+organic acid metabolic process	biological_process	QRTvsQRC	0.00027026	577
+glutathione metabolic process	biological_process	MLTvsMLC	0.015885	38
+glutathione metabolic process	biological_process	MRTvsMRC	0.0066193	51
+glutathione metabolic process	biological_process	QLTvsQLC	0.00022631	66
+glutathione metabolic process	biological_process	QRTvsQRC	7.4792e-05	67
+organic acid biosynthetic process	biological_process	MLTvsMLC	0.0028403	175
+organic acid biosynthetic process	biological_process	MRTvsMRC	0.011941	228
+organic acid biosynthetic process	biological_process	QLTvsQLC	0.0022783	284
+organic acid biosynthetic process	biological_process	QRTvsQRC	0.0083634	280
+carboxylic acid biosynthetic process	biological_process	MLTvsMLC	0.0028403	175
+carboxylic acid biosynthetic process	biological_process	MRTvsMRC	0.011941	228
+carboxylic acid biosynthetic process	biological_process	QLTvsQLC	0.0022783	284
+carboxylic acid biosynthetic process	biological_process	QRTvsQRC	0.0083634	280
+microtubule cytoskeleton	cellular_component	MLTvsMLC	5.7171e-08	116
+microtubule cytoskeleton	cellular_component	MRTvsMRC	7.7888e-09	149
+microtubule cytoskeleton	cellular_component	QLTvsQLC	1.3758e-05	164
+microtubule cytoskeleton	cellular_component	QRTvsQRC	0.028871	149
+response to oxygen-containing compound	biological_process	MLTvsMLC	0.013279	114
+response to oxygen-containing compound	biological_process	MRTvsMRC	0.00040108	162
+response to oxygen-containing compound	biological_process	QLTvsQLC	0.00033802	198
+response to oxygen-containing compound	biological_process	QRTvsQRC	0.015249	188
+phosphorus metabolic process	biological_process	MLTvsMLC	0.026865	1349
+phosphorus metabolic process	biological_process	MRTvsMRC	1.6943e-05	1913
+phosphorus metabolic process	biological_process	QLTvsQLC	0.0026329	2314
+phosphorus metabolic process	biological_process	QRTvsQRC	4.0782e-05	2345
+nucleoside binding	molecular_function	MLTvsMLC	0.030921	189
+nucleoside binding	molecular_function	MRTvsMRC	4.3689e-08	291
+nucleoside binding	molecular_function	QLTvsQLC	0.00055732	330
+nucleoside binding	molecular_function	QRTvsQRC	4.4561e-08	349
+sulfur compound biosynthetic process	biological_process	MLTvsMLC	0.0010828	59
+sulfur compound biosynthetic process	biological_process	MRTvsMRC	0.031184	69
+sulfur compound biosynthetic process	biological_process	QLTvsQLC	0.0018465	88
+sulfur compound biosynthetic process	biological_process	QRTvsQRC	0.00094201	89
+ribonucleoside binding	molecular_function	MLTvsMLC	0.034934	188
+ribonucleoside binding	molecular_function	MRTvsMRC	5.3093e-08	290
+ribonucleoside binding	molecular_function	QLTvsQLC	0.00061762	329
+ribonucleoside binding	molecular_function	QRTvsQRC	3.0231e-08	349
+cellular carbohydrate metabolic process	biological_process	MLTvsMLC	0.0010631	168
+cellular carbohydrate metabolic process	biological_process	MRTvsMRC	0.00066199	223
+cellular carbohydrate metabolic process	biological_process	QLTvsQLC	0.021309	258
+cellular carbohydrate metabolic process	biological_process	QRTvsQRC	0.012542	260
+phosphate-containing compound metabolic process	biological_process	MLTvsMLC	0.033949	1339
+phosphate-containing compound metabolic process	biological_process	MRTvsMRC	1.6803e-05	1903
+phosphate-containing compound metabolic process	biological_process	QLTvsQLC	0.0028307	2301
+phosphate-containing compound metabolic process	biological_process	QRTvsQRC	5.2249e-05	2331
+purine ribonucleoside binding	molecular_function	MLTvsMLC	0.03838	185
+purine ribonucleoside binding	molecular_function	MRTvsMRC	3.9208e-08	287
+purine ribonucleoside binding	molecular_function	QLTvsQLC	0.00081076	324
+purine ribonucleoside binding	molecular_function	QRTvsQRC	7.3607e-08	343
+guanyl ribonucleotide binding	molecular_function	MLTvsMLC	0.03838	185
+guanyl ribonucleotide binding	molecular_function	MRTvsMRC	3.9208e-08	287
+guanyl ribonucleotide binding	molecular_function	QLTvsQLC	0.00081076	324
+guanyl ribonucleotide binding	molecular_function	QRTvsQRC	7.3607e-08	343
+purine nucleoside binding	molecular_function	MLTvsMLC	0.03838	185
+purine nucleoside binding	molecular_function	MRTvsMRC	3.9208e-08	287
+purine nucleoside binding	molecular_function	QLTvsQLC	0.00081076	324
+purine nucleoside binding	molecular_function	QRTvsQRC	7.3607e-08	343
+GTP binding	molecular_function	MLTvsMLC	0.03838	185
+GTP binding	molecular_function	MRTvsMRC	3.9208e-08	287
+GTP binding	molecular_function	QLTvsQLC	0.00081076	324
+GTP binding	molecular_function	QRTvsQRC	7.3607e-08	343
+vacuole	cellular_component	MLTvsMLC	0.0039854	67
+vacuole	cellular_component	MRTvsMRC	0.010888	85
+vacuole	cellular_component	QLTvsQLC	0.01915	101
+vacuole	cellular_component	QRTvsQRC	0.012038	102
+guanyl nucleotide binding	molecular_function	MLTvsMLC	0.045668	185
+guanyl nucleotide binding	molecular_function	MRTvsMRC	7.0856e-08	287
+guanyl nucleotide binding	molecular_function	QLTvsQLC	0.00092962	325
+guanyl nucleotide binding	molecular_function	QRTvsQRC	9.2623e-08	344
+cytoskeletal protein binding	molecular_function	MLTvsMLC	0.017814	147
+cytoskeletal protein binding	molecular_function	MRTvsMRC	6.399e-06	216
+cytoskeletal protein binding	molecular_function	QLTvsQLC	0.00032631	249
+cytoskeletal protein binding	molecular_function	QRTvsQRC	0.029138	236
+polysaccharide biosynthetic process	biological_process	MLTvsMLC	0.025769	70
+polysaccharide biosynthetic process	biological_process	MRTvsMRC	7.6374e-05	103
+polysaccharide biosynthetic process	biological_process	QLTvsQLC	0.025242	110
+polysaccharide biosynthetic process	biological_process	QRTvsQRC	8.0072e-05	120
+polysaccharide metabolic process	biological_process	MLTvsMLC	0.0096758	151
+polysaccharide metabolic process	biological_process	MRTvsMRC	0.0043157	204
+polysaccharide metabolic process	biological_process	QLTvsQLC	0.021569	242
+polysaccharide metabolic process	biological_process	QRTvsQRC	0.017046	243
+hexose metabolic process	biological_process	MLTvsMLC	0.0028861	73
+hexose metabolic process	biological_process	MRTvsMRC	0.026712	90
+hexose metabolic process	biological_process	QLTvsQLC	0.0029122	113
+hexose metabolic process	biological_process	QRTvsQRC	0.032706	108
+cellular response to oxygen-containing compound	biological_process	MLTvsMLC	0.037838	77
+cellular response to oxygen-containing compound	biological_process	MRTvsMRC	0.0043565	109
+cellular response to oxygen-containing compound	biological_process	QLTvsQLC	0.00038337	138
+cellular response to oxygen-containing compound	biological_process	QRTvsQRC	0.022962	129
+metabolic process	biological_process	MLTvsMLC	0.047343	5305
+metabolic process	biological_process	MRTvsMRC	0.0069124	7378
+metabolic process	biological_process	QLTvsQLC	0.003036	9260
+metabolic process	biological_process	QRTvsQRC	0.020022	9227
+negative regulation of cellular protein metabolic process	biological_process	MLTvsMLC	0.0056153	46
+negative regulation of cellular protein metabolic process	biological_process	MRTvsMRC	0.0037216	61
+negative regulation of cellular protein metabolic process	biological_process	QLTvsQLC	0.034594	72
+negative regulation of cellular protein metabolic process	biological_process	QRTvsQRC	0.04308	71
+negative regulation of protein metabolic process	biological_process	MLTvsMLC	0.0056153	46
+negative regulation of protein metabolic process	biological_process	MRTvsMRC	0.0037216	61
+negative regulation of protein metabolic process	biological_process	QLTvsQLC	0.034594	72
+negative regulation of protein metabolic process	biological_process	QRTvsQRC	0.04308	71
+glutamine metabolic process	biological_process	MLTvsMLC	0.029253	19
+glutamine metabolic process	biological_process	MRTvsMRC	0.0016532	27
+glutamine metabolic process	biological_process	QLTvsQLC	0.032787	28
+glutamine metabolic process	biological_process	QRTvsQRC	0.032919	28
+S-adenosylmethionine metabolic process	biological_process	MLTvsMLC	0.026884	9
+S-adenosylmethionine metabolic process	biological_process	MRTvsMRC	0.021181	11
+S-adenosylmethionine metabolic process	biological_process	QLTvsQLC	0.032978	12
+S-adenosylmethionine metabolic process	biological_process	QRTvsQRC	0.03327	12

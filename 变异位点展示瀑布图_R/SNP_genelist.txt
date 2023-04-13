@@ -1,0 +1,45 @@
+SampleID	CRC39	CRC393D	CRC43	CRC433D	CRC48	CRC483D	CRC48PDO	CRC51	CRC513DP	CRC51PDO	CRC55	CRC553DP	CRC55PDO	CRC56	CRC563DP	CRC56PDO	CRC57	CRC573DP	CRC57PDO
+TP53	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV		missense_SNV	missense_SNV	missense_SNV	missense_SNV
+APC	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV
+KRAS	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV
+TCF7L2			missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV							missense_SNV	missense_SNV	missense_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV
+CTNNB1	synonymous_SNV	synonymous_SNV			synonymous_SNV	synonymous_SNV	synonymous_SNV							synonymous_SNV	synonymous_SNV	synonymous_SNV			
+BRAF			synonymous_SNV	synonymous_SNV				synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV				synonymous_SNV	synonymous_SNV	synonymous_SNV
+PCBP1																	missense_SNV		
+ERBB2											missense_SNV	missense_SNV	missense_SNV				missense_SNV	missense_SNV	missense_SNV
+ZFP36L2								synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV						
+PTEN																missense_SNV			
+PBRM1			synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV				synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV			
+SMAD2					synonymous_SNV	synonymous_SNV	synonymous_SNV												
+BMPR2			UTR5	UTR5															
+RNF43	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV
+BCL9L	synonymous_SNV	synonymous_SNV	UTR3	UTR3	UTR3	UTR3	UTR3	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	UTR3	UTR3	UTR3	synonymous_SNV	synonymous_SNV	synonymous_SNV
+LYST					synonymous_SNV	synonymous_SNV	synonymous_SNV							synonymous_SNV	synonymous_SNV	synonymous_SNV			
+AMER1					synonymous_SNV	synonymous_SNV	synonymous_SNV												
+ACVR2A	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV					synonymous_SNV	synonymous_SNV	synonymous_SNV
+AXIN2	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV
+DAPK1	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV
+GNAS	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV
+BCL9					missense_SNV	missense_SNV	missense_SNV				missense_SNV	missense_SNV	missense_SNV						
+PIK3R1	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV			
+CR2	missense_SNV	missense_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV
+DICER1	synonymous_SNV	UTR3		UTR3					UTR3		UTR3	UTR3		missense_SNV	UTR3	missense_SNV			
+ERBB3	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	splicing	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV
+USP9X											synonymous_SNV	synonymous_SNV	synonymous_SNV						
+ACVR1B					missense_SNV	missense_SNV	missense_SNV												
+KIF16B	missense_SNV	missense_SNV	synonymous_SNV	synonymous_SNV	missense_SNV	missense_SNV	missense_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	missense_SNV	missense_SNV	missense_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV
+NPIPB15	synonymous_SNV	synonymous_SNV	synonymous_SNV	missense_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	synonymous_SNV
+SYTL2	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV					synonymous_SNV	synonymous_SNV
+ZNF91	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV				synonymous_SNV	missense_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV		missense_SNV	
+KIAA0586	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV
+CD58												UTR3							
+TCF12	synonymous_SNV	synonymous_SNV			synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV									
+ELF3	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV			
+PDE8A			missense_SNV	missense_SNV										missense_SNV	synonymous_SNV	synonymous_SNV			
+TTN	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV
+MSH2	splicing	splicing	UTR5	UTR5	splicing	splicing	splicing	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	splicing	splicing	splicing	splicing	splicing	splicing
+CDC27	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV
+MSH3	missense_SNV	missense_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	synonymous_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV
+CASP8	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	missense_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV				missense_SNV	missense_SNV	missense_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV
+NEB	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV
+MSH6								synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV	synonymous_SNV							

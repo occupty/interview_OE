@@ -1,0 +1,45 @@
+SampleID	CRC_39	CRC_39_3D	CRC_43	CRC_43_3D	CRC_48	CRC_48_3D	CRC_48_PDO	CRC_51	CRC_51_3DP	CRC_51_PDO	CRC_55	CRC_55_3DP	CRC_55_PDO	CRC_56	CRC_56_3DP	CRC_56_PDO	CRC_57	CRC_57_3DP	CRC_57_PDO
+TP53	indel	indel	indel	indel	indel	indel	indel		indel	indel	indel	indel			indel	indel	indel		indel
+APC	indel	indel			indel	indel	indel												indel
+KRAS								indel											
+TCF7L2											indel								
+CTNNB1																	indel		
+BRAF				indel														indel	
+PCBP1																			
+ERBB2																			
+ZFP36L2					indel		indel				indel								
+PTEN	indel		indel						indel										
+PBRM1			indel	indel	indel	indel	indel				indel	indel	indel	indel	indel	indel			
+SMAD2																			
+BMPR2	indel	indel							indel										
+RNF43					indel	indel	indel												
+BCL9L	indel	indel	indel	indel	indel	indel	indel	indel	indel	indel	indel	indel	indel	indel	indel	indel	indel	indel	indel
+LYST																			
+AMER1																			
+ACVR2A					indel	indel	indel												
+AXIN2																			
+DAPK1																			
+GNAS			indel	indel							indel	indel	indel						indel
+BCL9																			indel
+PIK3R1																			
+CR2																			
+DICER1																			
+ERBB3																			indel
+USP9X																			
+ACVR1B	indel	indel	indel		indel	indel	indel			indel			indel			indel			indel
+KIF16B																			
+NPIPB15					indel	indel		indel	indel	indel	indel	indel	indel						
+SYTL2																			
+ZNF91			indel	indel		indel	indel							indel					
+KIAA0586																			
+CD58					indel		indel												
+TCF12																			
+ELF3																			indel
+PDE8A			indel																
+TTN																			
+MSH2							indel								indel				
+CDC27																			
+MSH3	indel	indel	indel	indel	indel		indel				indel	indel	indel				indel	indel	indel
+CASP8																			
+NEB																			
+MSH6																			

@@ -1,0 +1,140 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use Getopt::Long;
+
+my ($help, $workdir, $bashfile, $workpart, @jobqueue, $orderpart, @workcache, $order, %vmem, %queue, $localhost);
+my $jobfile = "work";
+my $sjmfile = "job_stream.sjm";
+my $logdir = "log";
+
+sub usage{
+	print <<USAGE;
+用于生成sjm程序的可读任务文件。
+gsjm <command>
+	-j <jobfile>				首个任务集
+	-s <jobfile>				生成sjm文件的命名（默认为job_stream.sjm）
+	-q <jobfile>=<queue.q|lh>		节点选择(默认rna.q),输入lh则在本地运行
+	-lh					读取这个参数时，所有任务都将在本地运行
+	-vf <jobfile>=<count><G|M>		每个任务内存占用设置（默认8G）
+	-l <logdir>				日志文件输出路径（默认在当前路径下创建log文件夹作为日志输出路径）
+	-e <o|a> <jobfile>			新增任务集选项,o代表该任务集和上一任务集是一一对应的关系，a代表只有上一任务集全部执
+						行完成，才会执行下一任务集
+	-h|--help				显示帮助
+
+单个任务集示例：
+	perl sjm_more.pl -j dir/work -q dir/work=rna.q -vf dir/work=8G -s job.sjm -l log
+	如各项参数保持默认，则使用perl sjm_more.pl即可完成操作
+多个任务集示例：
+	perl sjm_more.pl -j QC/allsample_QC_job.sh -e o Map/work -e o CAN/Cufflinks/work -e a CAN/Cufflinks/work2 -q Map/work=big.q 
+	QC/allsample_QC_job.sh=reseq.q -vf Map/work=12G QC/allsample_QC_job.sh=6G
+	该命令设定了四个任务集，前三个任务集中的任务的依赖关系是一一对应，最后一个任务集设定在第三个任务集全部任务执行成功后才会执行
+	。规定了QC和Map的集群资源设定，CAN中两个任务集保持默认参数。
+
+任务集jobfile的书写规范是任务脚本的绝对路径，一般情况下，可使用 realpath *sh > work 生成。
+USAGE
+exit(0);
+}
+
+GetOptions(
+	"j=s" => \$jobfile,
+	"e=s{2}" => \@jobqueue,
+	"vf=s{1,}" => \%vmem,
+	"q=s{1,}" => \%queue,
+	"s=s" => \$sjmfile,
+	"l=s" => \$logdir,
+	"h|help" => \$help,
+	"lh" => \$localhost
+);
+
+&usage if ($help);
+
+sub job_resource{
+	$vmem{$jobfile} = "8G" unless (exists $vmem{$jobfile});
+	$queue{$jobfile} = "rna.q" unless (exists $queue{$jobfile});
+}
+
+sub write_job{
+	my $sjmpart;
+	if ($localhost||$queue{$jobfile} eq "lh"){
+		$sjmpart =<<END;
+job_begin
+    name $bashfile
+    host localhost
+    cmd_begin
+     cd $workdir
+     bash $bashfile
+    cmd_end
+job_end
+END
+	} else {
+		$sjmpart =<<END;
+job_begin
+	name $bashfile
+	directory $workdir
+	sched_options -V -l vf=$vmem{$jobfile} -q $queue{$jobfile}
+	cmd bash $bashfile
+job_end
+END
+	}
+	return $sjmpart;
+}
+
+
+sub job_parse{
+	shift;
+	chomp;
+	$_ =~ /^(.*)\/([^\/]+)$/;
+	$workdir = $1;
+	$bashfile = $2;
+	$workpart .= &write_job;
+}
+
+sub sjm_generation{
+	if ($order eq "o"){
+		while (<JOB>){
+			&job_parse($_);
+			$orderpart .= "order ".$bashfile." after ".shift(@workcache)."\n";
+			push @{\@workcache}, $bashfile;
+		}
+	} elsif ($order eq "a"){
+		my @worktmp;
+		while (<JOB>){
+			&job_parse($_);
+			foreach my $tmp (@workcache){
+				$orderpart .= "order ".$bashfile." after ".$tmp."\n";
+			}
+			push @worktmp, $bashfile;
+		}
+		@{\@workcache} = @worktmp;
+	}
+}
+
+sub job_extend{
+	for (my $i = 0; $i <= $#jobqueue; $i += 2){
+		$order = $jobqueue[$i];
+		$jobfile = $jobqueue[($i + 1)];
+		&job_resource;
+		open JOB, "<$jobfile";
+		&sjm_generation;
+		close JOB;
+	}
+}
+
+&job_resource;
+open JOB, "<$jobfile";
+while (<JOB>){
+	&job_parse($_);
+	push @workcache, $bashfile;
+}
+close JOB;
+
+&job_extend if (exists $jobqueue[1]);
+
+system("mkdir $logdir");
+
+open SJM, ">$sjmfile";
+print SJM "log_dir ",`realpath $logdir`;
+print SJM $workpart;
+print SJM $orderpart if (exists $jobqueue[1]);
+close SJM;

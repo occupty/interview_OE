@@ -1,0 +1,153 @@
+GO_Term	Term_Type	Compare	Pvalue	GeneNumber
+translation regulator activity, nucleic acid binding	molecular_function	MLTvsMLC	3.5227e-06	88
+translation regulator activity, nucleic acid binding	molecular_function	MRTvsMRC	2.8909e-07	122
+translation regulator activity, nucleic acid binding	molecular_function	QLTvsQLC	6.7581e-07	143
+translation regulator activity, nucleic acid binding	molecular_function	QRTvsQRC	1.6076e-07	144
+translation factor activity, RNA binding	molecular_function	MLTvsMLC	3.5227e-06	88
+translation factor activity, RNA binding	molecular_function	MRTvsMRC	2.8909e-07	122
+translation factor activity, RNA binding	molecular_function	QLTvsQLC	6.7581e-07	143
+translation factor activity, RNA binding	molecular_function	QRTvsQRC	1.6076e-07	144
+translation regulator activity	molecular_function	MLTvsMLC	3.5008e-07	94
+translation regulator activity	molecular_function	MRTvsMRC	2.2838e-07	127
+translation regulator activity	molecular_function	QLTvsQLC	1.2613e-05	144
+translation regulator activity	molecular_function	QRTvsQRC	4.3441e-06	144
+mRNA processing	biological_process	MLTvsMLC	1.1753e-10	102
+mRNA processing	biological_process	MRTvsMRC	7.0549e-07	120
+mRNA processing	biological_process	QLTvsQLC	1.5775e-05	134
+mRNA processing	biological_process	QRTvsQRC	2.0296e-05	130
+regulation of protein metabolic process	biological_process	MLTvsMLC	3.7994e-07	91
+regulation of protein metabolic process	biological_process	MRTvsMRC	3.845e-05	116
+regulation of protein metabolic process	biological_process	QLTvsQLC	9.1519e-06	143
+regulation of protein metabolic process	biological_process	QRTvsQRC	2.0011e-08	153
+regulation of cellular protein metabolic process	biological_process	MLTvsMLC	1.3041e-07	90
+regulation of cellular protein metabolic process	biological_process	MRTvsMRC	9.2327e-06	115
+regulation of cellular protein metabolic process	biological_process	QLTvsQLC	4.1697e-05	136
+regulation of cellular protein metabolic process	biological_process	QRTvsQRC	3.9098e-08	148
+translational initiation	biological_process	MLTvsMLC	6.4962e-05	65
+translational initiation	biological_process	MRTvsMRC	1.6376e-05	90
+translational initiation	biological_process	QLTvsQLC	6.8996e-08	115
+translational initiation	biological_process	QRTvsQRC	9.4085e-07	110
+translation initiation factor activity	molecular_function	MLTvsMLC	0.00021075	63
+translation initiation factor activity	molecular_function	MRTvsMRC	2.9466e-05	89
+translation initiation factor activity	molecular_function	QLTvsQLC	1.3117e-07	114
+translation initiation factor activity	molecular_function	QRTvsQRC	9.3633e-07	110
+mRNA metabolic process	biological_process	MLTvsMLC	5.6154e-15	128
+mRNA metabolic process	biological_process	MRTvsMRC	4.2468e-07	139
+mRNA metabolic process	biological_process	QLTvsQLC	4.8397e-06	157
+mRNA metabolic process	biological_process	QRTvsQRC	0.00030423	144
+regulation of proteolysis	biological_process	MLTvsMLC	2.8248e-05	18
+regulation of proteolysis	biological_process	MRTvsMRC	0.00071917	20
+regulation of proteolysis	biological_process	QLTvsQLC	2.7483e-06	29
+regulation of proteolysis	biological_process	QRTvsQRC	2.125e-06	30
+RNA splicing	biological_process	MLTvsMLC	5.3909e-12	82
+RNA splicing	biological_process	MRTvsMRC	0.00072978	80
+RNA splicing	biological_process	QLTvsQLC	0.00025736	96
+RNA splicing	biological_process	QRTvsQRC	3.1669e-05	98
+cellular protein metabolic process	biological_process	MLTvsMLC	4.0273e-05	879
+cellular protein metabolic process	biological_process	MRTvsMRC	0.0034076	1246
+cellular protein metabolic process	biological_process	QLTvsQLC	0.00025327	1526
+cellular protein metabolic process	biological_process	QRTvsQRC	3.8178e-18	1640
+response to oxygen-containing compound	biological_process	MLTvsMLC	0.0050278	60
+response to oxygen-containing compound	biological_process	MRTvsMRC	8.6996e-05	93
+response to oxygen-containing compound	biological_process	QLTvsQLC	0.00014904	112
+response to oxygen-containing compound	biological_process	QRTvsQRC	0.00085712	109
+protein modification by small protein conjugation or removal	biological_process	MLTvsMLC	0.0091057	118
+protein modification by small protein conjugation or removal	biological_process	MRTvsMRC	0.00071794	176
+protein modification by small protein conjugation or removal	biological_process	QLTvsQLC	4.4283e-07	222
+protein modification by small protein conjugation or removal	biological_process	QRTvsQRC	0.0041748	193
+binding	molecular_function	MLTvsMLC	2.6567e-25	3164
+binding	molecular_function	MRTvsMRC	9.0698e-20	4557
+binding	molecular_function	QLTvsQLC	0.013158	5273
+binding	molecular_function	QRTvsQRC	0.00085223	5205
+membrane-bounded organelle	cellular_component	MLTvsMLC	1.4237e-06	1260
+membrane-bounded organelle	cellular_component	MRTvsMRC	0.0089766	1764
+membrane-bounded organelle	cellular_component	QLTvsQLC	0.0092844	2193
+membrane-bounded organelle	cellular_component	QRTvsQRC	0.0033796	2181
+ethylene-activated signaling pathway	biological_process	MLTvsMLC	9.1609e-06	11
+ethylene-activated signaling pathway	biological_process	MRTvsMRC	0.0021775	10
+ethylene-activated signaling pathway	biological_process	QLTvsQLC	0.0061291	10
+ethylene-activated signaling pathway	biological_process	QRTvsQRC	0.014047	9
+mRNA splicing, via spliceosome	biological_process	MLTvsMLC	6.1467e-06	48
+mRNA splicing, via spliceosome	biological_process	MRTvsMRC	0.018097	50
+mRNA splicing, via spliceosome	biological_process	QLTvsQLC	0.0050268	62
+mRNA splicing, via spliceosome	biological_process	QRTvsQRC	4.5828e-05	69
+protein modification by small protein conjugation	biological_process	MLTvsMLC	0.013255	97
+protein modification by small protein conjugation	biological_process	MRTvsMRC	0.0013754	145
+protein modification by small protein conjugation	biological_process	QLTvsQLC	8.5637e-05	177
+protein modification by small protein conjugation	biological_process	QRTvsQRC	0.013558	157
+negative regulation of endopeptidase activity	biological_process	MLTvsMLC	3.8978e-09	12
+negative regulation of endopeptidase activity	biological_process	MRTvsMRC	3.4847e-05	10
+negative regulation of endopeptidase activity	biological_process	QLTvsQLC	0.02771	8
+negative regulation of endopeptidase activity	biological_process	QRTvsQRC	0.0013612	11
+negative regulation of peptidase activity	biological_process	MLTvsMLC	3.8978e-09	12
+negative regulation of peptidase activity	biological_process	MRTvsMRC	3.4847e-05	10
+negative regulation of peptidase activity	biological_process	QLTvsQLC	0.02771	8
+negative regulation of peptidase activity	biological_process	QRTvsQRC	0.0013612	11
+negative regulation of proteolysis	biological_process	MLTvsMLC	3.8978e-09	12
+negative regulation of proteolysis	biological_process	MRTvsMRC	3.4847e-05	10
+negative regulation of proteolysis	biological_process	QLTvsQLC	0.02771	8
+negative regulation of proteolysis	biological_process	QRTvsQRC	0.0013612	11
+regulation of hydrolase activity	biological_process	MLTvsMLC	0.027607	38
+regulation of hydrolase activity	biological_process	MRTvsMRC	1.9855e-06	70
+regulation of hydrolase activity	biological_process	QLTvsQLC	0.0036748	71
+regulation of hydrolase activity	biological_process	QRTvsQRC	2.4777e-10	95
+translational elongation	biological_process	MLTvsMLC	7.0359e-05	33
+translational elongation	biological_process	MRTvsMRC	0.0057674	37
+translational elongation	biological_process	QLTvsQLC	0.029045	41
+translational elongation	biological_process	QRTvsQRC	9.3631e-05	50
+spliceosomal complex	cellular_component	MLTvsMLC	8.0336e-07	37
+spliceosomal complex	cellular_component	MRTvsMRC	0.0079283	36
+spliceosomal complex	cellular_component	QLTvsQLC	0.014495	41
+spliceosomal complex	cellular_component	QRTvsQRC	0.017585	40
+negative regulation of hydrolase activity	biological_process	MLTvsMLC	0.00056473	22
+negative regulation of hydrolase activity	biological_process	MRTvsMRC	3.2625e-08	38
+negative regulation of hydrolase activity	biological_process	QLTvsQLC	0.040498	31
+negative regulation of hydrolase activity	biological_process	QRTvsQRC	3.2411e-09	52
+cellular response to ethylene stimulus	biological_process	MLTvsMLC	2.4348e-05	11
+cellular response to ethylene stimulus	biological_process	MRTvsMRC	0.0044339	10
+cellular response to ethylene stimulus	biological_process	QLTvsQLC	0.012197	10
+cellular response to ethylene stimulus	biological_process	QRTvsQRC	0.025022	9
+regulation of translation	biological_process	MLTvsMLC	6.9034e-08	41
+regulation of translation	biological_process	MRTvsMRC	0.0019175	40
+regulation of translation	biological_process	QLTvsQLC	0.00042224	48
+regulation of translation	biological_process	QRTvsQRC	0.039761	39
+regulation of cellular amide metabolic process	biological_process	MLTvsMLC	6.9034e-08	41
+regulation of cellular amide metabolic process	biological_process	MRTvsMRC	0.0019175	40
+regulation of cellular amide metabolic process	biological_process	QLTvsQLC	0.00042224	48
+regulation of cellular amide metabolic process	biological_process	QRTvsQRC	0.039761	39
+RNA splicing, via transesterification reactions with bulged adenosine as nucleophile	biological_process	MLTvsMLC	5.9572e-06	51
+RNA splicing, via transesterification reactions with bulged adenosine as nucleophile	biological_process	MRTvsMRC	0.015245	54
+RNA splicing, via transesterification reactions with bulged adenosine as nucleophile	biological_process	QLTvsQLC	0.030164	62
+RNA splicing, via transesterification reactions with bulged adenosine as nucleophile	biological_process	QRTvsQRC	0.00020269	71
+regulation of peptidase activity	biological_process	MLTvsMLC	3.8449e-07	12
+regulation of peptidase activity	biological_process	MRTvsMRC	0.00086031	10
+regulation of peptidase activity	biological_process	QLTvsQLC	0.043219	9
+regulation of peptidase activity	biological_process	QRTvsQRC	0.002745	12
+protein ubiquitination	biological_process	MLTvsMLC	0.022499	91
+protein ubiquitination	biological_process	MRTvsMRC	0.0024353	137
+protein ubiquitination	biological_process	QLTvsQLC	0.00053018	164
+protein ubiquitination	biological_process	QRTvsQRC	0.022411	147
+translation elongation factor activity	molecular_function	MLTvsMLC	0.0012292	25
+translation elongation factor activity	molecular_function	MRTvsMRC	0.0099198	30
+translation elongation factor activity	molecular_function	QLTvsQLC	0.035823	33
+translation elongation factor activity	molecular_function	QRTvsQRC	0.0051525	36
+RNA splicing, via transesterification reactions	biological_process	MLTvsMLC	3.8444e-06	52
+RNA splicing, via transesterification reactions	biological_process	MRTvsMRC	0.012861	55
+RNA splicing, via transesterification reactions	biological_process	QLTvsQLC	0.03919	62
+RNA splicing, via transesterification reactions	biological_process	QRTvsQRC	0.000322	71
+response to water	biological_process	MLTvsMLC	0.030043	9
+response to water	biological_process	MRTvsMRC	0.023394	12
+response to water	biological_process	QLTvsQLC	0.019923	15
+response to water	biological_process	QRTvsQRC	0.0042779	17
+response to acid chemical	biological_process	MLTvsMLC	0.030043	9
+response to acid chemical	biological_process	MRTvsMRC	0.023394	12
+response to acid chemical	biological_process	QLTvsQLC	0.019923	15
+response to acid chemical	biological_process	QRTvsQRC	0.0042779	17
+monocarboxylic acid catabolic process	biological_process	MLTvsMLC	0.035049	6
+monocarboxylic acid catabolic process	biological_process	MRTvsMRC	0.027756	8
+monocarboxylic acid catabolic process	biological_process	QLTvsQLC	0.0061266	10
+monocarboxylic acid catabolic process	biological_process	QRTvsQRC	0.021328	9
+intracellular membrane-bounded organelle	cellular_component	MLTvsMLC	1.2999e-08	1240
+intracellular membrane-bounded organelle	cellular_component	MRTvsMRC	0.034457	1692
+intracellular membrane-bounded organelle	cellular_component	QLTvsQLC	0.048299	2101
+intracellular membrane-bounded organelle	cellular_component	QRTvsQRC	0.017414	2093
